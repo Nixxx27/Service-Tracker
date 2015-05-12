@@ -1,0 +1,227 @@
+@media print {
+    .nottoprint {
+      display: none;
+    }
+}
+
+* {
+   margin: 0px;
+
+   padding: 0px;
+}
+
+html,
+body {
+	padding-top: 0px;
+}
+
+td {
+	font-family:arial;
+	font-size:12px;
+}
+
+.td-value{
+	text-decoration: underline;
+	width:auto;
+	padding-left:4px;
+	padding-right:4px;
+}
+
+.divider {
+	width:auto;
+	height:.auto;
+	border-bottom:1px solid;
+	padding-top:3px;
+}
+
+/* TABLE */
+
+.table-left{
+	width:4in;
+	float:left;
+}
+
+
+.table-right{
+	width:4in;
+	float:right;
+}
+
+
+
+/* CONTAINER */
+.form-container	{
+	width:8.5in;
+	height:11in;
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid;
+}
+
+/* HEADER */
+.header{
+	width:auto;
+	height:.80in;
+	border-bottom:1px solid;
+	padding-top:10px;
+}
+
+.header-left{
+	width:5in;
+	height:auto;
+	padding-left:30px;
+	float:left;
+}
+
+.header-right{
+	width:3in;
+	padding-top:20px;
+	padding-left:15px;
+	height:auto;
+	float:right;
+}
+
+#jrf-num {
+	font-weight:bold;
+	font-size:16px;
+	margin-left:50px;
+}
+
+/* WORK ORDER LABEL */
+
+.workorder-label{
+	width:auto;
+	height:20px;
+	border-bottom:1px solid;
+	font-size:14px;
+}
+
+/* PART ONE*/
+.partone {
+	width:auto;
+	height:auto;
+	border-bottom:1px solid;
+	padding-top:3px;
+	padding-left:30px;
+	padding-bottom:5px;
+}
+
+.partone-table-bottom{
+	width:8in;
+	height:auto;
+	clear:both;
+	padding-top:1px;
+}
+
+#partone-textarea {
+	width:8in;
+	height: auto;
+	border:0px none;
+	padding-left:2px;
+
+}
+
+
+/* PART TWO */
+
+.parttwo {
+	width:auto;
+	height:.8in;
+	border-bottom:1px solid;
+	padding-top:5px;
+	padding-left:30px;
+}
+
+
+/* PART THREE */
+
+.partthree {
+	width:auto;
+	height:auto;
+	border-bottom:1px solid;
+	padding-top:5px;
+	padding-left:30px;
+}
+
+
+.square {
+	width:7.7in;
+	height: 60px;
+	border:1px solid;
+	margin-left:10px;
+	margin-bottom:4px;
+	padding-left:5px;
+}
+
+
+.square-sm {
+	width:7.7in;
+	height: 50px;
+	border:1px solid;
+	margin-left:10px;
+	margin-bottom:4px;
+	padding-left:5px;
+}
+
+
+/*PART FOUR */
+
+.partfour {
+	width:auto;
+	height:auto;
+	padding-top:5px;
+	padding-left:30px;
+	margin-bottom:10px;
+}
+
+.sm{
+	font-weight: bold;
+    width:50px;
+    font-size:12px;
+
+}
+.md{
+	font-weight: bold;
+    width:100px;
+    font-size:12px;
+
+}
+.bot-border{
+	border-bottom:solid 1px;
+}
+
+.lg{
+	font-weight: bold;
+    width:200px;
+    font-size:12px;
+
+}
+
+.xl{
+	font-weight: bold;
+    width:250px;
+    font-size:12px;
+}
+
+
+.view-td-btm{
+	width:auto;
+	border-bottom:1px solid;
+}
+
+.partfive {
+	width:auto;
+	height:auto;
+	margin-top:100px;
+	padding-top:5px;
+	padding-left:30px;
+	border-top:1px solid;
+	clear:both;
+}
+.view-td-btm-size{
+	width:150px;
+	border-bottom:1px solid;
+}
+
+
+
